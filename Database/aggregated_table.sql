@@ -34,6 +34,17 @@ SELECT
 		   ELSE 'Unknown'
 	  END as age_group,
 
+	  CASE 
+	      WHEN ru.total_orders > 1 THEN TRUE
+		  ELSE FALSE 
+	  END AS is_repeat_customer,
+
+	  o.restaurant_id,
+	  r.restaurant_name,
+	  r.city,
+	  r.cuisine,
+	  r.rating as restaurant_rating,
+
 
 	  CASE 
 	       WHEN r.is_cloud_kitchen = 1 THEN 'Cloud Kitchen'
@@ -60,7 +71,13 @@ FROM orders o
 INNER JOIN users U ON u.user_id = o.user_id
 LEFT JOIN repeat_users ru ON o.user_id = ru.user_id
 INNER JOIN restaurants r ON o.restaurant_id = r.restaurant_id;
-	       
+
+
+
+
+
+
+DROP TABLE IF EXISTS order_items_master;
 CREATE TABLE order_items_master AS 
 SELECT 
 
