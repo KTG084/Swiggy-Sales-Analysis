@@ -45,6 +45,15 @@ SELECT
 	  r.cuisine,
 	  r.rating as restaurant_rating,
 
+	  CASE 
+	      WHEN r.rating > 0 AND r.rating <=2 THEN 'Poor'
+		  WHEN r.rating > 2 AND r.rating <=3 THEN 'Average'
+		  WHEN r.rating > 3 AND r.rating <=4 THEN 'Good'
+		  WHEN r.rating > 4 AND r.rating <=4.5 THEN 'Very Good'
+		  WHEN r.rating > 4.5 AND r.rating <= 5 THEN 'Excellent'
+		  ELSE 'No Rating'
+	  END as rating_bucket,
+
 
 	  CASE 
 	       WHEN r.is_cloud_kitchen = 1 THEN 'Cloud Kitchen'
@@ -68,7 +77,7 @@ SELECT
 		  ELSE 'Late Night'
 	  END as time_slot
 FROM orders o
-INNER JOIN users U ON u.user_id = o.user_id
+INNER JOIN users u ON u.user_id = o.user_id
 LEFT JOIN repeat_users ru ON o.user_id = ru.user_id
 INNER JOIN restaurants r ON o.restaurant_id = r.restaurant_id;
 
@@ -102,13 +111,14 @@ SELECT
 	  CASE 
 	      WHEN m.price < 100 THEN 'Budget (<100)'
 		  WHEN m.price < 200 THEN 'Economic(100-199)'
-		  WHEN m.price < 200 THEN 'Mid-Range (200-299)'
-		  WHEN m.price < 200 THEN 'Premium (300-399)'
+		  WHEN m.price < 300 THEN 'Mid-Range (200-299)'
+		  WHEN m.price < 400 THEN 'Premium (300-399)'
 		  ELSE 'Luxury (400+)'
 	  END as price_category
+	  
 FROM order_items oi
 INNER JOIN menu m 
-ON oi.menu_id = m.menu_id
+ON oi.menu_id = m.menu_id;
 
 
 
