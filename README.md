@@ -16,11 +16,11 @@
 |--------------------|--------------------|
 | ![](assets/screenshots/Screenshot%202026-07-01%20125813.png) | ![](assets/screenshots/Screenshot%202026-07-01%20125927.png) |
 
-| Restaurant Analytics | Order Analytics |
+| Restaurant Analytics | Menu Analytics |
 |----------------------|-----------------|
 | ![](assets/screenshots/Screenshot%202026-07-01%20125949.png) | ![](assets/screenshots/Screenshot%202026-07-01%20130011.png) |
 
-| Menu Analytics | Additional Insights |
+| Operations Analytics | Additional Insights |
 |----------------|---------------------|
 | ![](assets/screenshots/Screenshot%202026-07-01%20130033.png) | ![](assets/screenshots/Screenshot%202026-07-01%20130049.png) |
 ---
