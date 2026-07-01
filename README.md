@@ -12,7 +12,7 @@
 
 ## 📸 Dashboard Preview
 
-| Executive Overview | Customer Analytics |
+| Executive Overview | Revenue Analytics |
 |--------------------|--------------------|
 | ![](assets/screenshots/Screenshot%202026-07-01%20125813.png) | ![](assets/screenshots/Screenshot%202026-07-01%20125927.png) |
 
