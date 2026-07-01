@@ -10,22 +10,19 @@
 
 ---
 
-## 🖼 Dashboard Preview
-
-<!-- Replace the placeholders below with actual screenshots, e.g. assets/screenshots/executive-overview.png -->
+## 📸 Dashboard Preview
 
 | Executive Overview | Customer Analytics |
-|---|---|
-| ![Executive Overview](assets/screenshots/Screenshot 2026-07-01 125813.png) | ![Customer Analytics](assets/screenshots/customer-analytics.png) |
+|--------------------|--------------------|
+| ![](assets/screenshots/Screenshot%202026-07-01%20125813.png) | ![](assets/screenshots/Screenshot%202026-07-01%20125927.png) |
 
 | Restaurant Analytics | Order Analytics |
-|---|---|
-| ![Restaurant Analytics](assets/screenshots/restaurant-analytics.png) | ![Order Analytics](assets/screenshots/order-analytics.png) |
+|----------------------|-----------------|
+| ![](assets/screenshots/Screenshot%202026-07-01%20125949.png) | ![](assets/screenshots/Screenshot%202026-07-01%20130011.png) |
 
-| Menu Analytics |
-|---|
-| ![Menu Analytics](assets/screenshots/menu-analytics.png) |
-
+| Menu Analytics | Additional Insights |
+|----------------|---------------------|
+| ![](assets/screenshots/Screenshot%202026-07-01%20130033.png) | ![](assets/screenshots/Screenshot%202026-07-01%20130049.png) |
 ---
 
 ## 📖 Table of Contents
