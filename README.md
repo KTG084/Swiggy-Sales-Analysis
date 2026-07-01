@@ -10,8 +10,27 @@
 
 ---
 
+## 🖼 Dashboard Preview
+
+<!-- Replace the placeholders below with actual screenshots, e.g. assets/screenshots/executive-overview.png -->
+
+| Executive Overview | Customer Analytics |
+|---|---|
+| ![Executive Overview](assets/screenshots/executive-overview.png) | ![Customer Analytics](assets/screenshots/customer-analytics.png) |
+
+| Restaurant Analytics | Order Analytics |
+|---|---|
+| ![Restaurant Analytics](assets/screenshots/restaurant-analytics.png) | ![Order Analytics](assets/screenshots/order-analytics.png) |
+
+| Menu Analytics |
+|---|
+| ![Menu Analytics](assets/screenshots/menu-analytics.png) |
+
+---
+
 ## 📖 Table of Contents
 
+- [Dashboard Preview](#-dashboard-preview)
 - [Project Overview](#-project-overview)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -185,7 +204,7 @@ Additional analytical columns include:
 
 ## 📈 Dashboard Features
 
-The Power BI dashboard provides interactive insights across five areas:
+The Power BI dashboard provides interactive insights across five pages:
 
 ### Executive Overview
 - Total Revenue
@@ -196,12 +215,16 @@ The Power BI dashboard provides interactive insights across five areas:
 - Customer Count
 - Average Order Value
 
+![Executive Overview Page](assets/screenshots/executive-overview.png)
+
 ### Customer Analytics
 - Repeat Customers
 - Customer Segmentation
 - Age Group Analysis
 - Occupation Insights
 - Gender Distribution
+
+![Customer Analytics Page](assets/screenshots/customer-analytics.png)
 
 ### Restaurant Analytics
 - Top Restaurants
@@ -210,6 +233,8 @@ The Power BI dashboard provides interactive insights across five areas:
 - Restaurant Ratings
 - Revenue by Restaurant
 
+![Restaurant Analytics Page](assets/screenshots/restaurant-analytics.png)
+
 ### Order Analytics
 - Order Trends
 - Monthly Sales
@@ -217,11 +242,15 @@ The Power BI dashboard provides interactive insights across five areas:
 - Time Slot Analysis
 - Payment Method Distribution
 
+![Order Analytics Page](assets/screenshots/order-analytics.png)
+
 ### Menu Analytics
 - Veg vs. Non-Veg
 - Category Performance
 - Price Segment Analysis
 - Best-Selling Items
+
+![Menu Analytics Page](assets/screenshots/menu-analytics.png)
 
 ---
 
