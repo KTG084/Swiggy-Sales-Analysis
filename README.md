@@ -16,7 +16,7 @@
 
 | Executive Overview | Customer Analytics |
 |---|---|
-| ![Executive Overview](assets/screenshots/executive-overview.png) | ![Customer Analytics](assets/screenshots/customer-analytics.png) |
+| ![Executive Overview](assets/screenshots/Screenshot 2026-07-01 125813.png) | ![Customer Analytics](assets/screenshots/customer-analytics.png) |
 
 | Restaurant Analytics | Order Analytics |
 |---|---|
